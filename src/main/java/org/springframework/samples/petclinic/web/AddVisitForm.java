@@ -21,7 +21,7 @@ import org.springframework.web.bind.support.SessionStatus;
 /**
  * JavaBean form controller that is used to add a new <code>Visit</code> to the
  * system.
- * 
+ *
  * @author Juergen Hoeller
  * @author Ken Krebs
  * @author Arjen Poutsma

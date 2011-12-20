@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 /**
  * JavaBean Form controller that is used to search for <code>Owner</code>s by
  * last name.
- * 
+ *
  * @author Juergen Hoeller
  * @author Ken Krebs
  * @author Arjen Poutsma

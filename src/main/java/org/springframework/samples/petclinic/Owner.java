@@ -24,7 +24,7 @@ import org.springframework.core.style.ToStringCreator;
 
 /**
  * Simple JavaBean domain object representing an owner.
- * 
+ *
  * @author Ken Krebs
  * @author Juergen Hoeller
  * @author Sam Brannen
@@ -88,7 +88,7 @@ public class Owner implements Person {
 
     /**
      * Return the Pet with the given name, or null if none found for this Owner.
-     * 
+     *
      * @param name
      *            to test
      * @return true if pet name is already in use
@@ -99,7 +99,7 @@ public class Owner implements Person {
 
     /**
      * Return the Pet with the given name, or null if none found for this Owner.
-     * 
+     *
      * @param name
      *            to test
      * @return true if pet name is already in use
@@ -139,7 +139,7 @@ public class Owner implements Person {
     public boolean isNew() {
         return (this.id == null);
     }
-    
+
     @Override
     public boolean getIsNew() {
         return isNew();

@@ -25,7 +25,7 @@ import org.springframework.beans.support.PropertyComparator;
 
 /**
  * Simple JavaBean domain object representing a veterinarian.
- * 
+ *
  * @author Ken Krebs
  * @author Juergen Hoeller
  * @author Sam Brannen
@@ -92,7 +92,7 @@ public class Vet implements Person {
     public boolean isNew() {
         return (this.id == null);
     }
-    
+
     @Override
     public boolean getIsNew() {
         return isNew();

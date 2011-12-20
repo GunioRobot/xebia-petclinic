@@ -3,7 +3,7 @@ package org.springframework.samples.petclinic;
 
 /**
  * Simple JavaBean domain object representing an person.
- * 
+ *
  * @author Ken Krebs
  */
 public interface Person extends BaseEntity {

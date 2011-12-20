@@ -73,11 +73,11 @@ to set up corresponding DataSources in your Java EE container.
 Notes on enabling Log4J:
  - Log4J is disabled by default due to issues with JBoss.
  - Uncomment the Log4J listener in "WEB-INF/web.xml" to enable logging.
- 
+
 Notes on service static resources:
- - Most web containers provide a 'default' servlet for serving static 
+ - Most web containers provide a 'default' servlet for serving static
  resources; Petclinic relies on it for its images.
- - On containers without such a mapping (ex: GlassFish), uncomment the 
+ - On containers without such a mapping (ex: GlassFish), uncomment the
  'default' declaration in "WEB-INF/web.xml".
 
 ==========================================================================
@@ -96,8 +96,8 @@ The basic steps are:
  - Copy "org.springframework.instrument.tomcat-3.0.0.RELEASE.jar" from the
    Spring distribution to "TOMCAT_HOME/server/lib".
  - If you're running on Tomcat 5.x, modify "TOMCAT_HOME/conf/server.xml"
-   and add a new "<Context>" element for 'petclinic' (see below). You can 
-   alternatively deploy the WAR including "META-INF/context.xml" from this 
+   and add a new "<Context>" element for 'petclinic' (see below). You can
+   alternatively deploy the WAR including "META-INF/context.xml" from this
    sample application's "src/main/webapp" directory, in which case you
    will need to uncomment the Loader element in that file to enable the
    use of the TomcatInstrumentableClassLoader.

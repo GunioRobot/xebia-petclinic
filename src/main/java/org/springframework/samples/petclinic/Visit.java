@@ -17,13 +17,13 @@ import org.springframework.format.annotation.DateTimeFormat.ISO;
 
 /**
  * Simple JavaBean domain object representing a visit.
- * 
+ *
  * @author Ken Krebs
  */
 @Entity
 @Table(name = "visits")
 public class Visit implements BaseEntity {
-    
+
     @DateTimeFormat(iso=ISO.DATE)
     @Basic
     @Column(name = "visit_date")
@@ -66,7 +66,7 @@ public class Visit implements BaseEntity {
     public boolean isNew() {
         return (this.id == null);
     }
-    
+
     @Override
     public boolean getIsNew() {
         return isNew();

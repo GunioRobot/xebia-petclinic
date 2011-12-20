@@ -13,7 +13,7 @@ import org.springframework.samples.petclinic.aspects.UsageLogAspect;
  * Specifically tests usage of an <code>orm.xml</code> file, loaded by the
  * persistence provider through the Spring-provided persistence unit root URL.
  * </p>
- * 
+ *
  * @author Juergen Hoeller
  */
 public class HibernateEntityManagerClinicTests extends AbstractJpaClinicTests {

@@ -51,6 +51,6 @@
   <form:form method="delete">
     <p class="submit"><input type="submit" value="Delete Pet"/></p>
   </form:form>
-</c:if>    
+</c:if>
 
 <%@ include file="/WEB-INF/jsp/footer.jsp" %>

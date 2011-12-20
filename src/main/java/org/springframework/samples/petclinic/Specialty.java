@@ -11,7 +11,7 @@ import org.hibernate.annotations.Index;
 
 /**
  * Models a {@link Vet Vet's} specialty (for example, dentistry).
- * 
+ *
  * @author Juergen Hoeller
  */
 @Entity
@@ -40,7 +40,7 @@ public class Specialty implements NamedEntity {
     public boolean isNew() {
         return (this.id == null);
     }
-    
+
     @Override
     public boolean getIsNew() {
         return isNew();

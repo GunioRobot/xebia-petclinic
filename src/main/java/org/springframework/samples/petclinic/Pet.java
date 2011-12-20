@@ -27,7 +27,7 @@ import org.springframework.format.annotation.DateTimeFormat.ISO;
 
 /**
  * Simple JavaBean business object representing a pet.
- * 
+ *
  * @author Ken Krebs
  * @author Juergen Hoeller
  * @author Sam Brannen
@@ -102,7 +102,7 @@ public class Pet implements NamedEntity {
     public boolean isNew() {
         return (this.id == null);
     }
-    
+
     @Override
     public boolean getIsNew() {
         return isNew();

@@ -10,7 +10,7 @@
     <tr>
       <th>
         Last Name: <form:errors path="*" cssClass="errors"/>
-        <br/> 
+        <br/>
         <form:input path="lastName" size="30" maxlength="80" />
       </th>
     </tr>
